@@ -3,7 +3,7 @@ Copy ultility for investigator
 
 **Warning: Administrator priviledge is required**
 
-his tool is used to copy file in NTFS system. This tool can copy file even when file is locked by another process because directly read binary from hard disk
+This tool is used to copy file in NTFS system. This tool can copy file even when file is locked by another process because directly read binary from hard disk
 
 Using:
         
