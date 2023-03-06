@@ -35,12 +35,16 @@ void Copy(wchar_t* source, wchar_t* dest) {
 		FAT_CopyFile(source_, dest_);
 	}
 }
+bool checkPriviledge() {
+
+}
 int wmain(int argc, wchar_t** argv) {
 	PVOID OldValue = NULL;
 	if (Wow64DisableWow64FsRedirection(&OldValue) == 0) {
 		printf("Calll Wow64DisableWow64FsRedirection failed! Error code: %d", GetLastError());
 		return 1;
 	}
+	printf("Warning: Administrator priviledge is required\n");
 	if (argc == 4 && wcscmp(argv[1], L"copy") == 0) {
 		Copy(argv[2], argv[3]);
 	}
