@@ -7,6 +7,6 @@ his tool is used to copy file in NTFS system. This tool can copy file even when 
 
 Using:
         
-CopyCat.exe copy [source] [dest]     *Copy file from [source] to [dest] folder*
+CopyCat.exe copy [source] [dest]      *Copy file from [source] to [dest] folder*
 
 CopyCat.exe fileinfo [filepath]       *Get file information, such as file size, file time, MFT time, owner, ...*
